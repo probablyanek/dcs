@@ -1,0 +1,31 @@
+* 0;Circuit1.sph
+**************************************************************************************************
+*                                            Circuit Design netlist                                      *
+*                             created by Ansys Electronics Desktop                            *
+**************************************************************************************************
+
+.option PARHIER='local'
+.option max_messages=1
+
+* begin toplevel circuit
+
+
+.SUB Substrate MS( H=0.0016 Er=2.2 TAND=0 TANM=0 MSat=0 MRem=0 HU=0.025
++MET1=1.724138 T1=1.778e-05)
+
+A1 Port1 Port3 W=0.00186193 P=0.0186866 COMPONENT=TRL SUBSTRATE=Substrate
+A4 Port1 Port2 W=0.0038538 P=0.0183021 COMPONENT=TRL SUBSTRATE=Substrate
+R5 Port3 Port2 102.062 
+RPort1 Port1 0 PORTNUM=1 RZ=50 IZ=0 
+.PORT Port1 0 1 RPort1 
+RPort2 Port2 0 PORTNUM=2 RZ=50 IZ=0 
+.PORT Port2 0 2 RPort2 
+RPort3 Port3 0 PORTNUM=3 RZ=50 IZ=0 
+.PORT Port3 0 3 RPort3 
+
+* end toplevel circuit
+.LNA
++ LIN 401 1000000000 5000000000
++ FLAG='LNA'
+
+.end

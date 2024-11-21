@@ -1,0 +1,28 @@
+(status): Nexxim version: 2024.2.0 WIN64, build time: May 23 2024, 02:38:15
+
+(status): Analyzing C:/Users/Anek/Documents/Ansoft/Project5.aedtresults/Circuit1/temp/DV25_S23_V0.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 4
+circuit_details(status): Total device types: 2
+device type                                       number of devices
+----------------------------------------------------------------------
+port_impedance                                    4
+trl                                               6
+(status): License checkout took 0.419 seconds.
+models:w_element(status): a1.w - Building frequency-domain model
+models:w_element(status): a1.w - Finished building frequency-domain model
+models:w_element(status): a12.w - Building frequency-domain model
+models:w_element(status): a12.w - Finished building frequency-domain model
+models:w_element(status): a15.w - Building frequency-domain model
+models:w_element(status): a15.w - Finished building frequency-domain model
+models:w_element(status): a4.w - Building frequency-domain model
+models:w_element(status): a4.w - Finished building frequency-domain model
+models:w_element(status): a8.w - Building frequency-domain model
+models:w_element(status): a8.w - Finished building frequency-domain model
+models:w_element(status): a9.w - Building frequency-domain model
+models:w_element(status): a9.w - Finished building frequency-domain model
+(info): Starting analysis type LNA.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+(status): LNA cpu time = 0.007
+(info): Simulation succeeded. Total simulator time: 0:00:00
+(status): Start Time:  11/21/2024 05:39:59, End Time:  11/21/2024 05:39:59, Host DESKTOP-V2P48JV, 
